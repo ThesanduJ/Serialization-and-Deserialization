@@ -8,6 +8,9 @@ public class Car implements Serializable {
     private String color;
     private int year;
 
+    public Car() {
+    }
+
     public Car(String name, String color, int year) {
         this.name = name;
         this.color = color;
